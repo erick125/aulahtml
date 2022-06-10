@@ -1,0 +1,99 @@
+body{
+	margin:0;
+	font-size:16px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+nav{
+	 padding: 5px 20px;
+	 background-color:#000000;
+	 margin-left:auto;
+	 margin-right:auto;
+	 text-align:right;
+}
+
+#menu
+{
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+ li{
+  padding:15px;
+  margin-left:10px;
+  display:inline-block;
+ 
+ }
+ li:hover{
+	 border-radius:5px;
+	 background-color:#F8F8FF;
+	 color:#00FFFF;
+ }
+ 
+ a
+ {
+    text-decoration: none;
+	color:#F8F8FF;
+ 
+ }
+ #logo{
+	 float:left;
+	 margin-top:5px;
+	 margin-left: 350px;
+	 width:100px;
+	 height:80px;
+ 
+ }
+
+ #imagem-center{
+	  margin:0;
+	  width:1920px;
+	  height:500px;
+ }
+ 
+ #cards
+ {
+	 padding:20px;
+	 border-radius: 5px;
+	 background-color: #000000;
+	 color: #f0f8fa;
+	 margin-top: 25px;
+	 margin-bottom: 25px;
+	 margin-left: 350px;
+	 margin-right: 350px;
+	 height: 400px;
+	 text-align: center;
+ }
+ 
+ .card
+ {
+	 border: solid 5px #fff;
+	 border-radius: 5px;
+	 margin-left: 50px;
+	 margin-right: 50px;
+	 margin-top: 20px;
+	 padding: 30px;
+	 display: inline-block;
+	 box-shadow: 10px 5px 5px #083d4d;
+ }
+ 
+ .card img
+ {
+	max-height: 200px;
+	max-width: 150px;
+ }
+ 
+#video-youtube
+{
+	height: 500px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+#rodape
+{
+	height: 400px;
+	background-color: #000000;
+}
