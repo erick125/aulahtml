@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width= device-width,inital-scale=1.0">
 	<title>Contatos</title>
 	<link rel ="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
 	
@@ -19,6 +20,32 @@
 		</ul>
 	
 	</nav>
+	
+	
+	<section>
+	
+		<div id="div-form">
+			<form method="get" action="contatos.php" target="_blank">
+				<label> Digite seu nome: </label> <br>
+				<input type="text" name="nome"><br>
+				<label> Digite seu email: </label><br>
+				<input type="email" name="email"><br>
+				<label>Informe o motivo do contato</label><br>
+				<select name="tipo-contato">
+					<option value="Duvida">Dúvida</option>
+					<option value="Reclamação">Reclamação</option>
+					<option vlaue="Informação">Informação</option>	
+				</select><br>
+				<label>Digite o primeiro número: </label><br>
+				<input type="text" name="numero1"><br>
+				<label>Digite o segundo número: </label><br>
+				<input type="text" name="numero2"><br>
+				<input type="submit" value="enviar"><br>
+				
+			</form>
+		</div>
+		
+	</section>
 	
 	<footer>
 	
